@@ -1,3 +1,6 @@
+// Load the dotenv
+require('dotenv').config()
+
 // Necessary discord.js classes
 const {
   Client,
@@ -6,7 +9,6 @@ const {
   CategoryChannel,
   TextChannel,
 } = require("discord.js");
-const { token } = require("../config.json");
 
 // Scheduler
 const { CronJob } = require("cron");
@@ -180,4 +182,4 @@ client.on("ready", () => {
   console.log("Done!");
 });
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);

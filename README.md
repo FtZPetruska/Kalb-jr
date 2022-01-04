@@ -8,14 +8,12 @@ You will first need to install `nodejs` and `yarn`. The latter can be obtained b
 
 To install the dependencies simply run `yarn`.
 
-To run the bot, you'll first need to provide a token in a file named `config.json`:
-```json
-{
-  "token": "Your bot's token here"
-}
+To run the bot, you'll first need to provide a token in a file named `.env`:
+```
+BOT_TOKEN=your.bot.token.here
 ```
 
-Once everything is setup you can simply run `node .`.
+Once everything is setup you can simply run `node .` in the top folder.
 
 ## Scheduling things
 
