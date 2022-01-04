@@ -93,6 +93,7 @@ function add_job(job) {
       "Error: the job won't be scheduled for the following reasons:\n",
       reasons.join("\n")
     );
+    return;
   }
 
   let parent_handle = get_handle(job["category_id"]);
@@ -100,6 +101,7 @@ function add_job(job) {
     console.error(
       `The parent category couldn't be found, the voice channel "${job?.name}" will not be scheduled.`
     );
+    return;
   }
   let announcement_handle = get_handle(job["announcement_channel_id"]);
   cron_jobs.push(
