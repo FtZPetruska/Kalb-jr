@@ -38,6 +38,14 @@ function get_handle(id) {
   return channel_handles[idx]["handle"];
 }
 
+/**
+ * Performs simple checks on a job.
+ *
+ * @param {Object} job The job to test.
+ * @returns {Array} An array that contains:
+ *  - a boolean to indicate whether the job should be scheduled.
+ *  - a list of the reasons why the job won't be scheduled.
+ */
 function validate_job(job) {
   if (!job) {
     return [false, "\t- The job is undefined."];
@@ -46,7 +54,7 @@ function validate_job(job) {
   let is_valid = true;
   let reasons = [];
 
-  if (!job?.name || job.name.find(" ")) {
+  if (!job?.name || job.name.search(" ") !== -1) {
     is_valid = false;
     reasons.push("\t- The voice channel name is invalid.");
   }
@@ -165,7 +173,7 @@ function delete_voice_channel(channel_name, announcement_channel, msg) {
 client.on("ready", () => {
   console.log("Beep boop, I'm alive");
   console.log("Now loading jobs...");
-  jobs.forEach((job) => add_job(job));
+  jobs.forEach(add_job);
   console.log("Done!");
   console.log("Starting all cron jobs...");
   start_jobs();
