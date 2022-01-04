@@ -1,5 +1,5 @@
 // Load the dotenv
-require('dotenv').config()
+require("dotenv").config();
 
 // Necessary discord.js classes
 const {
@@ -131,6 +131,9 @@ function add_job(job) {
       timezone
     )
   );
+  console.log(
+    `\t- Jobs for channel ${job.name} have been scheduled successfully.`
+  );
 }
 
 /**
@@ -150,6 +153,7 @@ function start_jobs() {
  */
 function create_voice_channel(parent, channel_name, announcement_channel, msg) {
   parent.createChannel(channel_name, { type: "GUILD_VOICE" }).then(() => {
+    console.log(`Channel ${channel_name} was created successfully.`);
     if (msg) {
       announcement_channel?.send(msg);
     }
@@ -168,6 +172,7 @@ function delete_voice_channel(channel_name, announcement_channel, msg) {
     .find((channel) => channel.name === channel_name)
     ?.delete()
     .then(() => {
+      console.log(`Channel ${channel_name} was deleted successfully.`);
       if (msg) {
         announcement_channel?.send(msg);
       }
@@ -175,7 +180,7 @@ function delete_voice_channel(channel_name, announcement_channel, msg) {
 }
 
 client.on("ready", () => {
-  console.log("Beep boop, I'm alive");
+  console.log("Logged in successfully.");
   console.log("Now loading jobs...");
   jobs.forEach(add_job);
   console.log("Done!");
