@@ -3,37 +3,37 @@
   "jobs": [
     {
       "name": "ladies_night_voice",
-      "category_id": "925516450968518697",
-      "announcement_channel_id": "925493874850422804",
-      "creation_message": "Hello gorgeous girls of Guild! Time for another night of ladies ONLY merriment and shenanigans!\nJoin us to hang out and chat in either the text or voice channel here on Discord.  \nA reminder to all our amazing Guild men: Feel free to read our posts my dudes, but NO COMMENTING! YOU CAN LOOK BUT YOU CAN'T TOUCH 😉\nCGG Ladies Night You Tube Mix Here:\nhttp://youtube.com/playlist...\nHave a listen to our CGG Podcast and link directly to “What Have You Been Playing?”\nhttps://www.cggpodcast.com/.../what-have-you-been.../\nSupport our podcast and get access to EXCLUSIVE CONTENT by Becoming a CGG Patreon!\nhttps://www.patreon.com/ClassicGamersGuild\nWant Merch? Of course you do!\nhttps://www.cafepress.com.au/profile/cgguild",
-      "deletion_message": "",
+      "category_id": "929125281531301908",
+      "announcement_channel_id": "929137391799763014",
+      "creation_message": "@here Hello gorgeous girls of Guild! Time for another night of ladies ONLY merriment and shenanigans!\nJoin us to hang out and chat in either the text or voice channel here on Discord.  \nA reminder to all our amazing Guild men: Feel free to read our posts my dudes, but NO COMMENTING! YOU CAN LOOK BUT YOU CAN'T TOUCH 😉\nCGG Ladies Night You Tube Mix Here:\nhttp://youtube.com/playlist...\nHave a listen to our CGG Podcast and link directly to “What Have You Been Playing?”\nhttps://www.cggpodcast.com/.../what-have-you-been.../\nSupport our podcast and get access to EXCLUSIVE CONTENT by Becoming a CGG Patreon!\nhttps://www.patreon.com/ClassicGamersGuild\nWant Merch? Of course you do!\nhttps://www.cafepress.com.au/profile/cgguild",
+      "deletion_message": "Voice channel deleted.  See you next Friday, girls!",
       "creation_cron": "0 30 19 * * FRI",
       "deletion_cron": "0 30 19 * * SAT"
     },
     {
       "name": "beer_club_voice",
-      "category_id": "925516450968518697",
-      "announcement_channel_id": "927360956080738324",
-      "creation_message": "HAPPY BEER CLUB! It's Saturday! It's a weekend! What are you beering? What are you playing? Let's talk here in the channel or join the voice chat for more inebriated fun! BEER CLUB STARTS NOW!",
-      "deletion_message": "",
+      "category_id": "929125281531301908",
+      "announcement_channel_id": "929141013409329213",
+      "creation_message": "@here HAPPY BEER CLUB! It's Saturday! It's a weekend! What are you beering? What are you playing? Let's talk here in the channel or join the voice chat for more inebriated fun! BEER CLUB STARTS NOW!",
+      "deletion_message": "Voice channel deleted.  See you next Saturday ya lushes!",
       "creation_cron": "0 0 11 * * SAT",
       "deletion_cron": "0 0 11 * * SUN"
     },
     {
       "name": "weekend_con_voice",
-      "category_id": "925516450968518697",
-      "announcement_channel_id": "927360995242967090",
-      "creation_message": "ARTISTS, DESIGNERS, AND CREATORS! This is the place for all your self-promotion needs! Peddle your wares and show off your stuff!  FOR ALL THE REST OF US - this is a chance to check out what your fellow Guilders are working on! Learn about upcoming games, shop for some beautiful art, kill some time with Youtube channels and podcasts, get in on the next big Kickstarter! 100% LOCAL, CERTIFIED ORGANIC, AND ADMIN APPROVED!\nJoin us here in the text channel or hop on over to the voice channel to talk shop!",
-      "deletion_message": "",
+      "category_id": "929125281531301908",
+      "announcement_channel_id": "929141133379006576",
+      "creation_message": "@here ARTISTS, DESIGNERS, AND CREATORS! This is the place for all your self-promotion needs! Peddle your wares and show off your stuff!  FOR ALL THE REST OF US - this is a chance to check out what your fellow Guilders are working on! Learn about upcoming games, shop for some beautiful art, kill some time with Youtube channels and podcasts, get in on the next big Kickstarter! 100% LOCAL, CERTIFIED ORGANIC, AND ADMIN APPROVED!\nJoin us here in the text channel or hop on over to the voice channel to talk shop!",
+      "deletion_message": "Voice channel deleted.  Come back next Saturday for more artistic chatting!",
       "creation_cron": "0 0 11 * * SAT",
       "deletion_cron": "0 0 11 * * SUN"
     },
     {
       "name": "thirst_thursday_voice",
-      "category_id": "925516450968518697",
-      "announcement_channel_id": "927361046728048700",
-      "creation_message": "Alright lounge lizards.  It's time for Thirst Thursday!  Who are you lusting after this week?  Send us ONE picture (the best one please) of your objet de désir of the week.\n(That's French for whoever you're horny for.)  Join us here in the text channel or hop on over to the voice channel for more bawdy fun.",
-      "deletion_message": "",
+      "category_id": "929125281531301908",
+      "announcement_channel_id": "929141257098395688",
+      "creation_message": "@here Alright lounge lizards.  It's time for Thirst Thursday!  Who are you lusting after this week?  Send us ONE picture (the best one please) of your objet de désir of the week.\n(That's French for whoever you're horny for.)  Join us here in the text channel or hop on over to the voice channel for more bawdy fun.",
+      "deletion_message": "Voice channel deleted.  Return to your regularly scheduled depravity and see you next Thursday.",
       "creation_cron": "0 0 08 * * THU",
       "deletion_cron": "0 0 08 * * FRI"
     }
