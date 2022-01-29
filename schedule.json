@@ -32,7 +32,7 @@
       "name": "thirst_thursday_voice",
       "category_id": "929125281531301908",
       "announcement_channel_id": "929141257098395688",
-      "creation_message": "@here Alright lounge lizards.  It's time for Thirst Thursday!  Who are you lusting after this week?  Send us ONE picture (the best one please) of your objet de désir of the week.\n(That's French for whoever you're horny for.)  Join us here in the text channel or hop on over to the voice channel for more bawdy fun.",
+      "creation_message": "@here Alright lounge lizards.  It's time for Thirstday!  Who are you lusting after this week?  The rules are you get to chose ONE objet de désir for the day.\n(That's French for whoever you're horny for.)  Post as manny pictures of them as you like.  You're also allowed to post ONE hardcore picture but it must be spoiler tagged.  Now embrace the spirit of Kalb and bring on the meat!",
       "deletion_message": "Voice channel deleted.  Return to your regularly scheduled depravity and see you next Thursday.",
       "creation_cron": "0 0 08 * * THU",
       "deletion_cron": "0 0 08 * * FRI"
