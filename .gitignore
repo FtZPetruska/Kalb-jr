@@ -1,5 +1,8 @@
 node_modules
 *.log
 
+# Typescript output
+dist
+
 # Contains secrets
 .env
