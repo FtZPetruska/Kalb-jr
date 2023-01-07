@@ -1,10 +1,11 @@
 name: Lint and Build
 on:
-  pull_request:
+  push:
     paths:
       - "src/**"
+      - "package.json"
+      - "tsconfig.json"
       - "yarn.lock"
-  push:
     branches:
       - "main"
 
@@ -62,4 +63,4 @@ jobs:
         run: yarn install --frozen-lockfile --ignore-scripts
 
       - name: Run build
-        run: yarn run tsc
+        run: yarn build
