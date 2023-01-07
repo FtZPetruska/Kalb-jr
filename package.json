@@ -1,6 +1,10 @@
 {
   "type": "module",
   "main": "dist/Kalb.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ."
+  },
   "dependencies": {
     "@types/cron": "^2.0.0",
     "bufferutil": "^4.0.7",

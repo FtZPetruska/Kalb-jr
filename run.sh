@@ -1,5 +1,5 @@
 #!/bin/sh
 
 yarn install
-yarn run tsc
-node .
+yarn build
+yarn start
