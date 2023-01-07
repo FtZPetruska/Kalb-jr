@@ -25,9 +25,10 @@ interface Job {
 }
 
 /* Load the schedule */
+import JSON5 from "json5";
 import { readFileSync } from "fs";
 const raw_data = readFileSync("schedule.json", "utf8");
-const { timezone, jobs } = JSON.parse(raw_data) as {
+const { timezone, jobs } = JSON5.parse(raw_data) as {
   timezone: string;
   jobs: Array<Job>;
 };
