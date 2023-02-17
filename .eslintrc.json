@@ -3,7 +3,13 @@
     "es2021": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "foxkit", "foxkit/ts", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "foxkit",
+    "foxkit/ts",
+    "prettier"
+  ],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "rules": {}
