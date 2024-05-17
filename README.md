@@ -14,6 +14,15 @@ BOT_TOKEN=your.bot.token.here
 
 Once everything is setup you can simply run `./run.sh` in the top folder. It will download all the dependencies, compile the the project and run it.
 
+Alternatively, a simple Dockerfile is provided if you wish to containerise your application. Simply run the following commands to build and run the program:
+
+```
+docker build -t kalb .
+docker run --rm -it kalb
+```
+
+Before publishing it, be aware that the `.env` file is included in the image. Moreover, you will need to rebuild the image if you make changes to the schedule.
+
 ## Scheduling things
 
 The `schedule.json` file contains all the scheduled tasks. They consist of:
@@ -29,3 +38,4 @@ The `schedule.json` file contains all the scheduled tasks. They consist of:
 ID can be acquired by turning on Developer Mode in Discord's settings, and right-clicking on the item we want the ID of.
 
 The times for creations are given in the following cron format: `ss mm hh dm mm dw`, more information [here](https://www.npmjs.com/package/cron).
+
