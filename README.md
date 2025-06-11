@@ -1,5 +1,13 @@
 # Kalb-jr
 
+## Archival notice
+
+With the bot no longer being used, this repo has been archived.
+
+Feel free to fork it if you want to use it (and receive dependabot alerts every week).
+
+---
+
 Kalb's first child, reborn from its ashes after a fierce battle against Discord's API.
 
 ## How to run
